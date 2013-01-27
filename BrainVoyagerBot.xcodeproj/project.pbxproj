@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		871D97AF16A48D90000F1B00 /* FMR_Creation_Helper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 871D97AE16A48D90000F1B00 /* FMR_Creation_Helper.rb */; };
+		871D97BD16A621E1000F1B00 /* VTC_Maker.rb in Resources */ = {isa = PBXBuildFile; fileRef = 871D97BC16A621E1000F1B00 /* VTC_Maker.rb */; };
+		871D97BF16A72ED2000F1B00 /* Find_Folders.rb in Resources */ = {isa = PBXBuildFile; fileRef = 871D97BE16A72ED2000F1B00 /* Find_Folders.rb */; };
+		87210A28166D28FE00CAC6FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87210A27166D28FE00CAC6FE /* Cocoa.framework */; };
+		87210A2A166D28FE00CAC6FE /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87210A29166D28FE00CAC6FE /* AppleScriptObjC.framework */; };
+		87210A34166D28FE00CAC6FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87210A32166D28FE00CAC6FE /* InfoPlist.strings */; };
+		87210A36166D28FE00CAC6FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87210A35166D28FE00CAC6FE /* main.m */; };
+		87210A3A166D28FE00CAC6FE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 87210A38166D28FE00CAC6FE /* Credits.rtf */; };
+		87210A3C166D28FE00CAC6FE /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 87210A3B166D28FE00CAC6FE /* AppDelegate.applescript */; };
+		87210A3F166D28FE00CAC6FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87210A3D166D28FE00CAC6FE /* MainMenu.xib */; };
+		87210A711676857E00CAC6FE /* ListMaker.rb in Resources */ = {isa = PBXBuildFile; fileRef = 87210A701676857E00CAC6FE /* ListMaker.rb */; };
+		874ECBE916AF16FE005475DC /* BrainVoyagerBot.help in Resources */ = {isa = PBXBuildFile; fileRef = 874ECBE816AF16FE005475DC /* BrainVoyagerBot.help */; };
+		874F860F16B1FA0200C625F4 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 874F860E16B1FA0200C625F4 /* icon.icns */; };
+		875B5D8416A0D17300F7012D /* FMRMaker.rb in Resources */ = {isa = PBXBuildFile; fileRef = 875B5D8316A0D08600F7012D /* FMRMaker.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87CAD99516AE04120006E48D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		871D97AE16A48D90000F1B00 /* FMR_Creation_Helper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = FMR_Creation_Helper.rb; sourceTree = "<group>"; };
+		871D97BC16A621E1000F1B00 /* VTC_Maker.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = VTC_Maker.rb; sourceTree = "<group>"; };
+		871D97BE16A72ED2000F1B00 /* Find_Folders.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Find_Folders.rb; sourceTree = "<group>"; };
+		87210A23166D28FE00CAC6FE /* BrainVoyagerBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainVoyagerBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87210A27166D28FE00CAC6FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		87210A29166D28FE00CAC6FE /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		87210A2C166D28FE00CAC6FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		87210A2D166D28FE00CAC6FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87210A2E166D28FE00CAC6FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87210A31166D28FE00CAC6FE /* BrainVoyagerBot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainVoyagerBot-Info.plist"; sourceTree = "<group>"; };
+		87210A33166D28FE00CAC6FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87210A35166D28FE00CAC6FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87210A37166D28FE00CAC6FE /* BrainVoyagerBot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainVoyagerBot-Prefix.pch"; sourceTree = "<group>"; };
+		87210A39166D28FE00CAC6FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		87210A3B166D28FE00CAC6FE /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.applescript; };
+		87210A3E166D28FE00CAC6FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		87210A701676857E00CAC6FE /* ListMaker.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ListMaker.rb; sourceTree = "<group>"; };
+		874ECBE816AF16FE005475DC /* BrainVoyagerBot.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BrainVoyagerBot.help; sourceTree = "<group>"; };
+		874F860E16B1FA0200C625F4 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		875B5D8316A0D08600F7012D /* FMRMaker.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = FMRMaker.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87210A20166D28FE00CAC6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87210A28166D28FE00CAC6FE /* Cocoa.framework in Frameworks */,
+				87210A2A166D28FE00CAC6FE /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87210A18166D28FE00CAC6FE = {
+			isa = PBXGroup;
+			children = (
+				874F860E16B1FA0200C625F4 /* icon.icns */,
+				87210A2F166D28FE00CAC6FE /* BrainVoyagerBot */,
+				87210A26166D28FE00CAC6FE /* Frameworks */,
+				87210A24166D28FE00CAC6FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87210A24166D28FE00CAC6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87210A23166D28FE00CAC6FE /* BrainVoyagerBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87210A26166D28FE00CAC6FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87210A27166D28FE00CAC6FE /* Cocoa.framework */,
+				87210A29166D28FE00CAC6FE /* AppleScriptObjC.framework */,
+				87210A2B166D28FE00CAC6FE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87210A2B166D28FE00CAC6FE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87210A2C166D28FE00CAC6FE /* AppKit.framework */,
+				87210A2D166D28FE00CAC6FE /* CoreData.framework */,
+				87210A2E166D28FE00CAC6FE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		87210A2F166D28FE00CAC6FE /* BrainVoyagerBot */ = {
+			isa = PBXGroup;
+			children = (
+				874ECBE816AF16FE005475DC /* BrainVoyagerBot.help */,
+				87210A701676857E00CAC6FE /* ListMaker.rb */,
+				871D97BE16A72ED2000F1B00 /* Find_Folders.rb */,
+				875B5D8316A0D08600F7012D /* FMRMaker.rb */,
+				871D97AE16A48D90000F1B00 /* FMR_Creation_Helper.rb */,
+				871D97BC16A621E1000F1B00 /* VTC_Maker.rb */,
+				87210A3B166D28FE00CAC6FE /* AppDelegate.applescript */,
+				87210A3D166D28FE00CAC6FE /* MainMenu.xib */,
+				87210A30166D28FE00CAC6FE /* Supporting Files */,
+			);
+			path = BrainVoyagerBot;
+			sourceTree = "<group>";
+		};
+		87210A30166D28FE00CAC6FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87210A31166D28FE00CAC6FE /* BrainVoyagerBot-Info.plist */,
+				87210A32166D28FE00CAC6FE /* InfoPlist.strings */,
+				87210A35166D28FE00CAC6FE /* main.m */,
+				87210A37166D28FE00CAC6FE /* BrainVoyagerBot-Prefix.pch */,
+				87210A38166D28FE00CAC6FE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87210A22166D28FE00CAC6FE /* BrainVoyagerBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87210A42166D28FE00CAC6FE /* Build configuration list for PBXNativeTarget "BrainVoyagerBot" */;
+			buildPhases = (
+				87210A1F166D28FE00CAC6FE /* Sources */,
+				87210A20166D28FE00CAC6FE /* Frameworks */,
+				87210A21166D28FE00CAC6FE /* Resources */,
+				87CAD99516AE04120006E48D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainVoyagerBot;
+			productName = BrainVoyagerBot;
+			productReference = 87210A23166D28FE00CAC6FE /* BrainVoyagerBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87210A1A166D28FE00CAC6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Deb;
+			};
+			buildConfigurationList = 87210A1D166D28FE00CAC6FE /* Build configuration list for PBXProject "BrainVoyagerBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 87210A18166D28FE00CAC6FE;
+			productRefGroup = 87210A24166D28FE00CAC6FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87210A22166D28FE00CAC6FE /* BrainVoyagerBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87210A21166D28FE00CAC6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87210A34166D28FE00CAC6FE /* InfoPlist.strings in Resources */,
+				87210A3A166D28FE00CAC6FE /* Credits.rtf in Resources */,
+				87210A3F166D28FE00CAC6FE /* MainMenu.xib in Resources */,
+				87210A711676857E00CAC6FE /* ListMaker.rb in Resources */,
+				875B5D8416A0D17300F7012D /* FMRMaker.rb in Resources */,
+				871D97AF16A48D90000F1B00 /* FMR_Creation_Helper.rb in Resources */,
+				871D97BD16A621E1000F1B00 /* VTC_Maker.rb in Resources */,
+				871D97BF16A72ED2000F1B00 /* Find_Folders.rb in Resources */,
+				874ECBE916AF16FE005475DC /* BrainVoyagerBot.help in Resources */,
+				874F860F16B1FA0200C625F4 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87210A1F166D28FE00CAC6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87210A36166D28FE00CAC6FE /* main.m in Sources */,
+				87210A3C166D28FE00CAC6FE /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87210A32166D28FE00CAC6FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87210A33166D28FE00CAC6FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87210A38166D28FE00CAC6FE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87210A39166D28FE00CAC6FE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		87210A3D166D28FE00CAC6FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87210A3E166D28FE00CAC6FE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87210A40166D28FE00CAC6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		87210A41166D28FE00CAC6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		87210A43166D28FE00CAC6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainVoyagerBot/BrainVoyagerBot-Prefix.pch";
+				INFOPLIST_FILE = "BrainVoyagerBot/BrainVoyagerBot-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87210A44166D28FE00CAC6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainVoyagerBot/BrainVoyagerBot-Prefix.pch";
+				INFOPLIST_FILE = "BrainVoyagerBot/BrainVoyagerBot-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87210A1D166D28FE00CAC6FE /* Build configuration list for PBXProject "BrainVoyagerBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87210A40166D28FE00CAC6FE /* Debug */,
+				87210A41166D28FE00CAC6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87210A42166D28FE00CAC6FE /* Build configuration list for PBXNativeTarget "BrainVoyagerBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87210A43166D28FE00CAC6FE /* Debug */,
+				87210A44166D28FE00CAC6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87210A1A166D28FE00CAC6FE /* Project object */;
+}

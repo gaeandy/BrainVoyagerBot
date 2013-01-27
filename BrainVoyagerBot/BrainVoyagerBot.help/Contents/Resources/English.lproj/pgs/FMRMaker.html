@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Using FMR Maker</title>
+		<link href="../../shrd/Styles/Styles.css" rel="stylesheet" media="all" type="text/css" />
+	</head>
+	
+	<body>
+	  <div id="caticon"> <img src="../gfx/icon.png" height="32" width="32" border="0" /> </div>
+		<div id="pagetitle">
+		  <h1>Using FMR Maker</h1>
+		</div>
+		<h3>Purpose</h3>
+    <p>BrainVoyagerBot's FMR Maker automatically generates BrainVoyager .fmr files for each functional run in a subject directory (multiple subjects can be processed at a time).</p>
+	  <h3>Use</h3>
+		<p>Click Select Folder and choose a folder to process. Currently, BrainVoyagerBot only allows one single folder to be selected, and the folder must adhere to one of the following directory structures:</p>
+			<ul class="nb">
+			  <li>A single subject folder containing many functional run folders with raw EPI images as shown below:</li>
+      		<img src="../../shrd/Images/helper_folder_1.png" class="indent">
+        <li>A folder containing many subject folders, each of which contain the functional run folders as shown below:</li>
+        		<img src="../../shrd/Images/helper_folder_2.png"class="indent">
+	    </ul>
+		<p>Currently, BrainVoyagerBot can only process EPI/DICOM images. Folders containing the DICOM files must have "EPI" in the directory name. After selecting a folder, click Start. BrainVoyagerBot's processing panel will appear as shown below:</p>
+		<img src="../../shrd/Images/preparing_BrainVoyager.png"class="indent">
+		<p>If BrainVoyager was not already open, it will be launched automatically. Since BrainVoyagerBot cannot communicate with BrainVoyager until the user Accepts the Welcome dialog, a Finder message will appear asking the user to click Accept in BrainVoyager. BrainVoyagerBot will then wait until the Welcome pane is no longer open before continuing. Once the Welcome pane is closed, or if BrainVoyager was already open when "Start" was clicked, FMR creation will begin and the processing panel will show the progress:</p>
+    <img src="../../shrd/Images/progress_display.png"class="indent">
+    <p>When BrainVoyagerBot finishes creating the FMR files,</p>
+    <p>The FMR Maker will also create a folder prefixed with "_BV" inside each subject's main directory, and all FMR files created for that subject will be stored in the _BV folder. This conforms to the Tarrlab's folder structure and naming conventions; Future versions of BrainVoyagerBot will include preferences for whether to create a new folder in each subject's directory, and if so, what it should be named.</p>
+	</body>
+</html>

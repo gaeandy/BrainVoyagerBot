@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta contentstent='text/html; charset=utf-8' http-equiv='content-type' />
+    <title>Using VTC Helper</title>
+    <link href='../../shrd/Styles/Styles.css' media='all' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='caticon'>
+      <img border='0' height='32' src='../gfx/icon.png' width='32' />
+    </div>
+    <div id='pagetitle'>
+      <h1>Introduction</h1>
+    </div>
+    <h3>What Does BrainVoyagerBot Do?</h3>
+      <p>BrainVoyagerBot is an application that includes four utilities for automating (or helping to automate) file creation and file processing in BrainVoyager QX:
+        <ul>
+          <li><bullets><b><a href="ListGenerator.html">List Generator:</a></b> generates a text file that lists paths to FMR files and corresponding target FMR files in the selected folders. The text file can be loaded in BrainVoyager's Batch Processing Wizard instead of selecting the files one by one in the Wizard (as would otherwise be necessary).</bullets></li>
+          <li><bullets><b><a href="FMRMaker.html">FMR Maker:</a></b> automatically creates FMR files for up to 100 subjects at once. Requires EPI/dicom image format.</bullets></li>
+          <li><bullets><b><a href="FMRHelper.html">FMR Helper:</a></b> alternative to FMR Maker for data sets with 3mm-inplane resolution. Generates a text file with paths to all files necessary for FMR creation. The text file can then be used with "FMR Maker.js" (included in BrainVoyagerBot), which can be run from within BrainVoyager to read the text file and automatically create FMR files.</bullets></li>
+          <li><bullets><b><a href="VTCHelper.html">VTC Helper:</a></b> similarly to FMR Helper, VTC Helper generates a text file that can be used with the included "VTC Maker.js" file to automatically create VTC's.</bullets></li>
+        </ul>
+      </p>
+    <h3>Running BrainVoyagerBot's JavaScript Files from BrainVoyager QX</h3>
+    <p>Once BrainVoyagerBot is installed (see <a href="Installation.html">Installing BrainVoyagerBot</a> for details), the two JavaScript files, "FMR Maker.js" and "VTC Maker.js," can be run from BrainVoyager by opening the Scripts > Edit and Run Scripts... menu (NOTE: if BrainVoyager is already running when you start FMR Helper or VTC Helper, the Edit and Run Scripts pane will open automatically). Double-click the name of the script in the left-hand side bar, then paste the path as directed in the instrucitons for <a href="pgs/FMRHelper.html">FMR Helper</a> and <a href="pgs/VTCHelper.html">VTC Helper</a>.</p>
+	</body>
+</html>

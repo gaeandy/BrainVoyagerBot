@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta contentstent='text/html; charset=utf-8' http-equiv='content-type' />
+    <title>About BrainVoyagerBot</title>
+    <link href='../../shrd/Styles/Styles.css' media='all' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='caticon'>
+      <img border='0' height='32' src='../gfx/icon.png' width='32' />
+    </div>
+    <div id='pagetitle'>
+      <h1>About BrainVoyagerBot</h1>
+    </div>
+    <h3>Overview</h3>
+    <p>BrainVoyagerBot is a Cocoa application written in AppleScriptObjectiveC. Much of the grunt work related to collecting file paths and writing information to text files is performed by Ruby scripts that are called as shell scripts from AppleScript.</p>
+   <h3>Background: Scripting BrainVoyager QX</h3>
+     <p>For Mac OSX, the only way to script BrainVoyager is through JavaScript (which has to be run from within BrainVoyager), or through AppleScript. BrainVoyager provides an AppleScript library that makes it possible to "tell BrainVoyager" to perform many of the same tasks a user could otherwise perform using the regular GUI. But not all actions that can be performed in the GUI have a corresponding command (or parameter) in the AppleScript library. For example, the AppleScript VTC creation command does not have a parameter to specify the bounding box coordinates in the event that you want to use a bounding box. Therefore, in cases where a task cannot be performed using AppleScript alone, the only way to automate the process at all is to use JavaScript from within BrainVoyager.</p>
+     <h3>Philosophy Behind BrainVoyagerBot's Approach</h3>
+     <p>As explained above, if AppleScript cannot be used, the only way to script BrainVoyager is with JavaScript. But JavaScript is not a programming language that facilitates tasks such as gathering local file paths (for example, "get all contents of folder X"), much less dynamically obtaining file paths given certain parameters (for example, only files with *.fmr extensions that are located within any subdirectory of any directory in a list). Since file paths are critical to most file creation/processing tasks in BrainVoyager, the philosophy behind BrainVoyagerBot is to use AppleScript and Ruby to obtain file paths and create text files that can be used in BrainVoyager. This way, the only tasks that need to be programmed in JavaScript are to read in the text file, and issue commands to BrainVoyager.</p>
+     <p>BrainVoyagerBot includes two JavaScript files for use with the FMR and VTC Helpers, but the same approach could be used for other tasks where AppleScript cannot issue commands to BrainVoyager (for one reason or another).</p>
+  </body>
+</html>
